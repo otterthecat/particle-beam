@@ -5,7 +5,7 @@ var buildUrl = require('./lib/helpers/build-url');
 
 module.exports = {
   "device": null,
-  "action": null
+  "action": null,
   "token": null,
   "post": function(data, callback){
 
