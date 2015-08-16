@@ -1,0 +1,30 @@
+{
+  "name": "particle-beam",
+  "version": "0.0.1",
+  "description": "beam post requests to particle cloud",
+  "homepage": "https://github.com/otterthecat/particle-beam",
+  "bugs": "https://github.com/otterthecat/particle-beam/issues",
+  "author": {
+    "name": "Otter the Cat",
+    "email": "otc@otterthecat.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/otterthecat/particle-beam.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.60.0"
+  },
+  "keywords": [
+    "particle",
+    "photon",
+    "post",
+    "request",
+    "otc"
+  ],
+}
