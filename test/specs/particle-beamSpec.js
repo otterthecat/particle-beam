@@ -27,20 +27,5 @@ describe('particle-beam', function () {
     it('should return a function', function () {
       beam.should.be.a('function');
     });
-
-    describe('returned function', function () {
-      var spy = sinon.spy();
-      var spy2 = sinon.spy();
-      beam(3, spy);
-      beam({}, {}, spy2);
-
-      it('should take a string as first argument', function () {
-        spy.should.have.been.calledOnce;
-        spy2.should.have.been.calledOnce;
-
-        spy.args[0][0].error.should.be.a('string');
-        spy2.args[0][0].error.should.be.a('string');
-      });
-    });
   });
 });
