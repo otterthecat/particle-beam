@@ -1,8 +1,8 @@
 module.exports = {
 
-    'js': ['./gulp/tasks/*.js','./lib/**/*.js'],
+    'js': ['./index.js', './lib/**/*.js'],
 
-    'module': ['./lib/**/*.js'],
+    'module': ['./index.js', './lib/**/*.js'],
 
     'test': ['./test/specs/**/*.js']
 };
