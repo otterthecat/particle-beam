@@ -5,3 +5,6 @@ gulp/
 gulpfile.js
 *.sublime-project
 *.sublime-workspace
+.editorconfig
+.eslintrc
+.jscsrc
