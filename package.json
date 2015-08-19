@@ -8,6 +8,9 @@
     "name": "Otter the Cat",
     "email": "otc@otterthecat.com"
   },
+ "engines": {
+    "node": ">=0.8.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/otterthecat/particle-beam.git"
@@ -15,6 +18,9 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/gulp mocha:istanbul"
+  },
+  "directories": {
+    "example": "./example"
   },
   "license": "MIT",
   "dependencies": {

@@ -14,7 +14,7 @@ var pewpew = ParticleBeam({
   "token": "[your api token here]"
 });
 
-// now that you have a beam configured to your device,
-// you can call functions you've registered to your board
-pewpew('[name of function]', [data (optional)], callback);
+// Now that you have a beam configured to your device,
+// you can call functions you've registered to your board.
+pewpew('[name of function]', [dataString (optional)], callback);
 ```
