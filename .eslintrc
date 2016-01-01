@@ -1,10 +1,42 @@
 {
     "ecmaFeatures": {
-        "arrowFunctions": false
+        "arrowFunctions": true,
+
+        "blockBindings": true,
+
+        "defaultParams": true,
+
+        "destructuring": true,
+
+        "forOf": true,
+
+        "generators": true,
+
+        "objectLiteralComputedProperties": true,
+
+        "objectLiteralShorthandMethods": true,
+
+        "objectLiteralShorthandProperties": true,
+
+        "regexYFlag": true,
+
+        "restPrams": true,
+
+        "spread": true,
+
+        "superInFunctions": true,
+
+        "templateStrings": true,
+
+        "jsx": true
     },
 
     "env": {
-        "node": true
+        "node": true,
+
+        "browser": true,
+
+        "mocha": true
     },
 
     "rules": {
@@ -65,7 +97,7 @@
 
         "wrap-iife": 2,
 
-        "strict": [2, "function"],
+        "strict": [2, "global"],
 
         "no-undefined": 2,
 
