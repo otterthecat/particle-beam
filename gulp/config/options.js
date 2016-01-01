@@ -1,7 +1,7 @@
 var complexityOpts = {
     errorsOnly : false,
     cyclomatic : 3,
-    halstead : 10,
+    halstead : 11,
     maintainability : 90,
     trycatch : true
 };

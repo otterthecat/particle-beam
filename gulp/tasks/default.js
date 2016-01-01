@@ -1,5 +1,4 @@
 module.exports = [
-  'lint',
-  'complexity',
+  'eslint',
   'mocha:istanbul'
 ];
