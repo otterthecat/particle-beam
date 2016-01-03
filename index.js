@@ -7,5 +7,5 @@ var particleBeam = require('./lib/particle-beam');
     - token: ID issued by Particle to allow access to your devices
 */
 module.exports = function (config) {
-  return particleBeam.bind(config);
+  return particleBeam(config);
 };
