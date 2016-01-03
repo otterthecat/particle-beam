@@ -1,6 +1,6 @@
 {
   "name": "particle-beam",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "beam post requests to particle cloud",
   "homepage": "https://github.com/otterthecat/particle-beam",
   "bugs": "https://github.com/otterthecat/particle-beam/issues",
@@ -8,7 +8,7 @@
     "name": "Otter the Cat",
     "email": "otc@otterthecat.com"
   },
- "engines": {
+  "engines": {
     "node": ">=4.1.1"
   },
   "repository": {
